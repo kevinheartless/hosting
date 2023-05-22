@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/web_ar_two.loader.js"></script>
+    <script src="Build/web_ar_run.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/web_ar_two.data.gz",
-                    frameworkUrl: "Build/web_ar_two.framework.js.gz",
-                    codeUrl: "Build/web_ar_two.wasm.gz",
+                    dataUrl: "Build/web_ar_run.data",
+                    frameworkUrl: "Build/web_ar_run.framework.js",
+                    codeUrl: "Build/web_ar_run.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "new_tes",
